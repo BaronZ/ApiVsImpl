@@ -29,6 +29,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.0'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.0'
-//    api 'com.squareup.picasso:picasso:2.5.2'//similar to compile, will expose picasso to consumer. compile 'com.squareup.picasso:picasso:2.5.2'
-    implementation 'com.squareup.picasso:picasso:2.5.2'//hide picasso from consumer
+    api 'com.squareup.picasso:picasso:2.5.2'//similar to compile, will expose picasso to consumer. compile 'com.squareup.picasso:picasso:2.5.2'
+//    implementation 'com.squareup.picasso:picasso:2.5.2'//hide picasso from consumer
 }

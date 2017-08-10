@@ -1,6 +1,7 @@
 package com.zzb.imagewrapper;
 
 import android.content.Context;
+import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
@@ -11,7 +12,7 @@ import com.squareup.picasso.Picasso;
 public class ImageWrapper {
 
 
-    public static void loadImage(Context context) {
-        Picasso.with(context);
+    public static void loadImage(Context context, String url, ImageView iv) {
+        Picasso.with(context).load(url).into(iv);
     }
 }
